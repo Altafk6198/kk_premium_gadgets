@@ -1,0 +1,22 @@
+.logo{
+    border: 2px solid red;
+    outline: 1px solid rgb(255, 255, 255);
+    width: 6%;
+    height: 6%;
+    border-radius: 50%;
+}
+.navcolor{
+    background-color: #00DDFF !important;
+    /* box-shadow: 10px 10px 10px 10px black; */
+}
+.tab1 {
+    font-size: large;
+    color: white !important;
+
+}
+/* Media query for logo  */
+@media (max-width:990px){
+    .logo{
+        display: none;
+    }
+}
