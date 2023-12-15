@@ -12,7 +12,7 @@ function Navbar1() {
           <Navbar.Brand href="#home"><img src={Logo} className='logo' alt='logo'/></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto tab1">
+            <Nav className="me-auto tab">
               <Nav.Link className='tab1' href="#home" >Home</Nav.Link>
               <Nav.Link className='tab1' href="#link">About</Nav.Link>
               <Nav.Link className='tab1' href="#home" >Services</Nav.Link>

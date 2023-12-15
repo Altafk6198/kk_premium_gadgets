@@ -1,18 +1,53 @@
 .logo{
     border: 2px solid red;
     outline: 1px solid rgb(255, 255, 255);
-    width: 6%;
-    height: 6%;
+    width: 16%;
+    height: 7%;
     border-radius: 50%;
 }
 .navcolor{
-    background-color: #00DDFF !important;
+    max-height: 100%;
+    overflow: hidden;
+    width: 100%;
+    /* padding: 1em; */
+    position: fixed;
+    top: 0%;
+    background-color: #ff9100 !important;
     /* box-shadow: 10px 10px 10px 10px black; */
 }
+.navcolor .tab1:hover{
+    text-shadow: 10px 5px 5px black !important;
+
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent !important;
+}
+.tab .tab1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .tab1 {
+    border-radius: 10px 10px 20px 40px;
+    /* border: 1px solid red; */
+    width: 120px;
+    padding: -10px;
+    margin: 5px;
+    height: 40px;
     font-size: large;
     color: white !important;
-
+}
+.tab1:hover{
+    border-radius: 10px 10px 20px 40px;
+    /* background-color: #ba8c50; */
+    width: 120px;
+    padding: 10px;
+    margin: 5px;
+    height: 40px;
+    color: #f9ddb9 !important;
 }
 /* Media query for logo  */
 @media (max-width:990px){

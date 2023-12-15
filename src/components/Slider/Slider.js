@@ -1,9 +1,14 @@
 import '../Slider/Slider.css'
 import React from 'react'
+import Watch from '../Slider/1Watches.jpg'
+import Rep from '../Slider/Rep.jpg'
+import Acc from '../Slider/acc.jpg'
+
 
 const Slider = () => {
   return (
-    <div className='slider'>
+    <section className='main_slide'>
+        <div className='slider'>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -12,23 +17,23 @@ const Slider = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="..." />
+      <img src={Watch} class="d-block w-100" alt="..." />
       <div class="carousel-caption d-none d-md-block">
         <h5>Watches</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..." />
+      <img src={Rep} class="d-block w-100" alt="..." />
       <div class="carousel-caption d-none d-md-block">
-        <h5></h5>
+        <h5>Reparing services</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..."/>
+      <img src={Acc} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
+        <h5>All Eleectronics Accesories</h5>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
@@ -43,6 +48,7 @@ const Slider = () => {
   </button>
 </div>
     </div>
+    </section>
   )
 }
 

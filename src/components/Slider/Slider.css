@@ -1,3 +1,12 @@
 .slider{
     color: red;
 }
+.main_slide{
+    height: 20vh;
+}
+.main_slide ~ img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
