@@ -1,11 +1,30 @@
-.logo{
-    border: 2px solid red;
-    outline: 1px solid rgb(255, 255, 255);
-    width: 16%;
-    height: 7%;
+.main {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    z-index: 1000;
+}
+
+.navlogo {
+    height: 90px;
+    width: 100px;
+}
+
+.navlogo img {
+    display: inline-block;
+    /* outline: 1px solid green; */
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.logo {
+    /* border: 2px solid rgb(225, 255, 0); */
+    /* outline: 1px solid rgb(255, 255, 255); */
     border-radius: 50%;
 }
-.navcolor{
+
+.navcolor {
     max-height: 100%;
     overflow: hidden;
     width: 100%;
@@ -15,43 +34,91 @@
     background-color: #ff9100 !important;
     /* box-shadow: 10px 10px 10px 10px black; */
 }
-.navcolor .tab1:hover{
-    text-shadow: 10px 5px 5px black !important;
 
+.navcolor .tab1:hover {
+    text-shadow: 10px 5px 5px black !important;
 }
-.tab{
+
+.tab {
+    margin-left: 10px;
+    /* outline: 1px solid rgb(0, 255, 72); */
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: transparent !important;
 }
-.tab .tab1{
+
+.tab .tab1 {
+    /* outline: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .tab1 {
     border-radius: 10px 10px 20px 40px;
     /* border: 1px solid red; */
-    width: 120px;
+    width: 100px;
     padding: -10px;
     margin: 5px;
     height: 40px;
     font-size: large;
     color: white !important;
 }
-.tab1:hover{
+
+.tab1:hover {
     border-radius: 10px 10px 20px 40px;
     /* background-color: #ba8c50; */
-    width: 120px;
+    width: 100px;
     padding: 10px;
     margin: 5px;
     height: 40px;
     color: #f9ddb9 !important;
 }
+
+.search {
+    /* outline: 1px solid rgb(17, 0, 255); */
+    /* outline: none !important;
+    border: none !important; */
+    margin-left: 10px;
+    width: 26%;
+}
+
+.sbtn1 {
+    border-radius: 5px !important;
+    margin-left: 5px !important;
+    width: 26% !important;
+}
+
 /* Media query for logo  */
-@media (max-width:990px){
-    .logo{
+@media (max-width:990px) {
+    .logo {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+}
+
+
+@media (max-width:1400px) {
+    .search{
+        width: 100px;
+    }
+    #form1::before{
+        width: 10px;
+        content: '\f002';
+        display: inline-block;
+        padding-right: 3px;
+        vertical-align: middle;
+    }
+    .sbox::before::after::placeholder{
+        /* color: transparent; */
+        display: none;
+    }
+
+    .sbtn1{
         display: none;
     }
 }
