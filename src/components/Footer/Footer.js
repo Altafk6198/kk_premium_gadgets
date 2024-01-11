@@ -14,7 +14,8 @@ const Footer = () => {
                   <img src={logo} alt="footer_logo" class="img-fluid logo1" />
                 </a>
                 <p class="footer-info-text">
-                  Explore a world of innovation at our gadgets shop. Discover cutting-edge technology, stylish accessories, and smart solutions for your everyday needs. Elevate your lifestyle with the latest gadgets – where innovation meets convenience. Shop now for a seamless blend of functionality and style.</p>
+                  Visit our gadget store to find cool and useful things! Get the latest tech and stylish accessories that make life easier. Upgrade your lifestyle with the newest gadgets that are both smart and stylish. Start shopping now for things that look good and work well!
+                </p>
                 <div class="footer-social-link">
                   <h3>Follow us</h3>
                   <ul>

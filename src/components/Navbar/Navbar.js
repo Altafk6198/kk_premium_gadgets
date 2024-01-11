@@ -20,7 +20,7 @@ function Navbar1() {
               <Nav.Link className='tab1' href="#link">About</Nav.Link>
               <Nav.Link className='tab1' href="#home" >Services</Nav.Link>
               <Nav.Link className='tab1' href="#link">Contact</Nav.Link>
-              <Nav.Link className='tab1' href="#home" >Home</Nav.Link>
+              <Nav.Link className='tab1' href="#home" >Products</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </section>

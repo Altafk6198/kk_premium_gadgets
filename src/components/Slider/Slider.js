@@ -18,23 +18,23 @@ const Slider = () => {
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src={Watch} class="d-block w-100" alt="..." />
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption car_text">
         <h5>Watches</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <p>Smart sophistication on your wrist. Elevate your style with our latest collection of innovative smartwatches.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src={Rep} class="d-block w-100" alt="..." />
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block car_text">
         <h5>Reparing services</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <p>Fast iPhone repairs, expert service. Cracked screen or battery issues? We've got you covered. Trust us for quick, reliable solutions.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src={Acc} class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>All Eleectronics Accesories</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+      <div class="carousel-caption d-none d-md-block car_text">
+        <h5>All Electronics Accesories</h5>
+        <p>Find great deals on accessories for lots of phones or pick up stylish extras for your iPhone. We've got cool tech and trendy add-ons—all in one place!</p>
       </div>
     </div>
   </div>
